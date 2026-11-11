@@ -8,7 +8,7 @@ Recursos GCP provisionados no Bloco A, fora do controle de versão (não há Ter
 
 | Recurso | Valor |
 |---|---|
-| Projeto GCP | `ai-researcher-capstone` (troque pelo seu — ver nota acima) |
+| Projeto GCP | `ai-researcher-amanda-2` (troque pelo seu — ver nota acima) |
 | Região padrão | `us-central1` (Cloud Run, Cloud SQL, Artifact Registry; `southamerica-east1` tem cobertura mais restrita de serviços). **Não** é a região usada nas chamadas de chat à Vertex AI — ver nota abaixo. |
 | Billing account | específica da sua conta GCP — `gcloud billing accounts list` |
 | Artifact Registry | repo Docker `ai-researcher` em `us-central1` |
